@@ -57,7 +57,7 @@ export default function Home() {
 									width: 'fit-content',
 									padding: 'var(--static-space-8) var(--static-space-16)',
 									backdropFilter: 'blur(var(--static-space-1))'}}>
-								Start by editing <span className="brand-on-background-medium">app/page.tsx</span>
+								Hola soy, <span className="brand-on-background-medium">Jimmy Meza</span>
 							</InlineCode>
 							<Heading
 								wrap="balance"
@@ -65,7 +65,7 @@ export default function Home() {
 								<span className="font-code">
 									<LetterFx
 										trigger="instant">
-										Hola, soy Jimmy Meza
+										QA Tester
 									</LetterFx>
 								</span>
 							</Heading>
