@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import { FaLinkedin } from 'react-icons/fa';
 
 import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Logo, Background, LetterFx } from '@/once-ui/components';
 import Link from 'next/link';
@@ -133,8 +134,8 @@ export default function Home() {
 					</Button>
 					<Button
 						href="https://discord.com/invite/5EyAQ4eNdS"
-						prefixIcon="discord" size="s" variant="tertiary">
-						Discord
+						prefixIcon={<FaLinkedin/>} size="s" variant="tertiary">
+						Linkedin
 					</Button>
 				</Flex>
 			</Flex>
