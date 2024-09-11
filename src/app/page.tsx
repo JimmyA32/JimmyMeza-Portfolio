@@ -134,7 +134,7 @@ export default function Home() {
 					</Button>
 					<Button
 						href="https://discord.com/invite/5EyAQ4eNdS"
-						prefixIcon={<FaLinkedin/>} 
+						prefixIcon="linkedin"
 						size="s" 
 						variant="tertiary"
 						target="_blank"
