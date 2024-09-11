@@ -56,8 +56,10 @@ export default function Home() {
 								style={{
 									width: 'fit-content',
 									padding: 'var(--static-space-8) var(--static-space-16)',
-									backdropFilter: 'blur(var(--static-space-1))'}}>
-								Hola soy, <span className="brand-on-background-medium">Jimmy Meza</span>
+									backdropFilter: 'blur(var(--static-space-1))',
+									fontSize: '24px'
+								}}>
+								Hola soy, <span className="brand-on-background-medium" style={{fontSize: '24px'}}>Jimmy Meza</span>
 							</InlineCode>
 							<Heading
 								wrap="balance"
