@@ -43,8 +43,13 @@ export default function RootLayout({
 			data-neutral="gray" data-brand="blue" data-accent="violet"
 			data-solid="color" data-solid-style="flat"
 			data-theme="dark"
+			data-brand="blue"
+			data-accent="blue"
+			data-neutral="slate"
 			data-border="playful"
-			data-surface="filled"
+			data-solid="color"
+			data-solid-style="flat"
+			data-surface="translucent"
 			data-transition="all"
 			className={classNames(
 				primary.variable,
