@@ -47,7 +47,13 @@ export default function Home() {
 						<Flex
 							position="relative"
 							flex={2} paddingTop="56" paddingX="xl">
-							<Logo size="xl" icon={false} style={{zIndex: '1'}}/>
+							<Image 
+									src="/images/yo.png"
+									alt="Jimmy Meza"
+									width={250}
+									height={300} 
+									style={{ borderRadius: '50%' }}
+								/>
 						</Flex>
 						<Flex
 							position="relative"
@@ -55,13 +61,6 @@ export default function Home() {
 							direction="column">
 							<Flex
 								direction="column" alignItems="center" gap="16">
-								<Image 
-									src="/images/yo.png"
-									alt="Jimmy Meza"
-									width={250}
-									height={300} 
-									style={{ borderRadius: '50%' }}
-								/>
 								<InlineCode
 									className="shadow-m"
 									style={{
