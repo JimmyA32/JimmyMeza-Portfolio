@@ -48,7 +48,7 @@ export default function Home() {
 							direction="column"
 							justifyContent="center"  // Centrar contenido verticalmente
 							alignItems="center"  // Centrar contenido horizontalmente
-							style={{ marginBottom: '30px' }}  // Margen debajo del contenedor
+							style={{ marginBottom: '50px', marginTop: '-30px' }}  // Margen debajo del contenedor
 						>
 							<Image 
 								src="/images/yo.png"
@@ -67,6 +67,7 @@ export default function Home() {
 								<InlineCode
 									className="shadow-m"
 									style={{
+										marginTop: '70px',
 										width: 'fit-content',
 										padding: 'var(--static-space-8) var(--static-space-16)',
 										backdropFilter: 'blur(var(--static-space-1))',
