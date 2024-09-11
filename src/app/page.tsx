@@ -52,7 +52,7 @@ export default function Home() {
 									alt="Jimmy Meza"
 									width={250}
 									height={300} 
-									style={{ borderRadius: '50%' }}
+									style={{ borderRadius: '50%', marginBottom: '20px' }}
 								/>
 						</Flex>
 						<Flex
