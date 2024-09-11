@@ -41,19 +41,22 @@ export default function Home() {
 					as="main"
 					direction="column" justifyContent="center"
 					fillWidth fillHeight padding="l" gap="l">
-					<Flex
-						mobileDirection="column"
-						fillWidth gap="24">
+					<Flex mobileDirection="column" fillWidth gap="24">
 						<Flex
 							position="relative"
-							flex={2} paddingTop="56" paddingX="xl">
+							flex={2} paddingTop="56" paddingX="xl"
+							direction="column"
+							justifyContent="center"  // Centrar contenido verticalmente
+							alignItems="center"  // Centrar contenido horizontalmente
+							style={{ marginBottom: '30px' }}  // Margen debajo del contenedor
+						>
 							<Image 
-									src="/images/yo.png"
-									alt="Jimmy Meza"
-									width={250}
-									height={300} 
-									style={{ borderRadius: '50%', marginBottom: '20px' }}
-								/>
+								src="/images/yo.png"
+								alt="Jimmy Meza"
+								width={250}
+								height={300} 
+								style={{ borderRadius: '50%' }}
+							/>
 						</Flex>
 						<Flex
 							position="relative"
