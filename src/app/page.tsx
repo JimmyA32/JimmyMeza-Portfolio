@@ -56,11 +56,11 @@ export default function Home() {
 							<Flex
 								direction="column" alignItems="center" gap="16">
 								<Image 
-									src="/images/yo.png" // Ruta de la imagen
+									src="/images/yo.png"
 									alt="Jimmy Meza"
-									width={200} // Ajusta el tamaño según sea necesario
-									height={200} // Ajusta el tamaño según sea necesario
-									style={{ borderRadius: '50%' }} // Opcional, para un estilo circular
+									width={250}
+									height={300} 
+									style={{ borderRadius: '50%' }}
 								/>
 								<InlineCode
 									className="shadow-m"
