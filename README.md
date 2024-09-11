@@ -1,48 +1,32 @@
-# **Once UI for Next.js**
+# ¡Hola! Soy Jimmy Meza 👋
 
-<span style="font-size: 22px;">Once UI is a lightweight, versatile design system intended to cover 80% of the needs of all applications.
-<br>
+## QA Tester Junior
 
-![Once UI](public/images/cover.png)
+Desde que comencé mi viaje en el mundo del aseguramiento de calidad, he desarrollado una gran pasión por mejorar la calidad del software. Mi enfoque detallista y mi curiosidad me han permitido desarrollar habilidades sólidas en:
 
-<span style="font-size: 18px;">Start building your Next.js app in minutes with:</span> 
-* **A robust token and style system** that simplifies customization and ensures consistency. 
-* **A copy-and-paste component library** that integrates seamlessly into your project.
-* **Interactive documentation** to apply your branding and set component properties.
-<br><br>
+- Creación y ejecución de casos de prueba
+- Gestión de incidencias y reporte de bugs
+- Uso de herramientas como Jira para un seguimiento eficiente
 
-# **Documentation**
-The documentation is available at [once-ui.com/docs](https://once-ui.com/docs).
-<br><br>
+Estoy en constante aprendizaje, siempre buscando nuevas tecnologías y metodologías para mejorar la eficiencia y efectividad en la calidad del software.
 
-# **Authors**
-Connect with us on X or LinkedIn.
+---
 
-Lorant Toth: [X](https://x.com/lorant_one), [LinkedIn](https://www.linkedin.com/in/lorant-one/)  
-Zsofia Komaromi: [X](https://x.com/zsofiakomaromi), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
-<br><br>
+## ¿Qué encontrarás aquí? 🚀
 
-# **Get involved**
-- Join the [Once UI Discord server](https://discord.com/invite/5EyAQ4eNdS) to connect with designers, developers and share your projects.
-- Report a [bug](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=bug&template=bug_report.md).
-- Submit a [feature request](https://github.com/once-ui-system/nextjs-starter/issues/new?labels=feature%20request&template=feature_request.md).
-<br><br>
+### 1. **Pruebas Manuales**
+- Ejemplos de casos de prueba y resultados de pruebas manuales en diversos proyectos.
 
-# **License**
+### 2. **Documentación Técnica**
+- Casos de estudio que destacan mi capacidad para documentar procesos de prueba y resultados de manera clara y efectiva.
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-<br><br>
+---
 
-# **Once UI for Figma**
+Estoy emocionado de compartir mi trabajo contigo y espero que encuentres valor en los proyectos presentados aquí. ¡No dudes en explorar mis proyectos y contactarme!
 
-Once UI is also available for Figma.  
-Design and prototype entire products from scratch in hours. Use the same tokens and components as the Next.js design system.
+Gracias por visitar mi portafolio, y espero que disfrutes explorándolo tanto como yo disfruté creándolo.
 
-Grab a copy from the [Figma Community](https://figma.com/).
-<br><br>
+---
 
-# **Deploy your project**
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/76DR9Q?referralCode=QW2HBC)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fnextjs-starter&redirect-url=https%3A%2F%2Fonce-ui.com%2Fdocs%2F)
+📫 **Contacto:**
+- [LinkedIn](https://www.linkedin.com/in/jimmy-meza-8a5a66237)
