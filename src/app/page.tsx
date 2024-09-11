@@ -9,17 +9,17 @@ export default function Home() {
 	const links = [
 		{
 			href: "https://once-ui.com/docs/theming",
-			title: "Themes",
+			title: "Sobre Mi",
 			description: "Style your app in minutes.",
 		},
 		{
 			href: "https://once-ui.com/docs/flexComponent",
-			title: "Layout",
+			title: "Proyectos",
 			description: "Build responsive layouts.",
 		},
 		{
 			href: "https://once-ui.com/docs/typography",
-			title: "Typography",
+			title: "Skill",
 			description: "Scale text automatically.",
 		},
 	];
