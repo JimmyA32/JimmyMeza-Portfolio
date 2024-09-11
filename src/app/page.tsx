@@ -133,7 +133,7 @@ export default function Home() {
 						GitHub
 					</Button>
 					<Button
-						href="www.linkedin.com/in/jimmy-meza-8a5a66237"
+						href="https://www.linkedin.com/in/jimmy-meza-8a5a66237"
 						prefixIcon="linkedin"
 						size="s" 
 						variant="tertiary"
