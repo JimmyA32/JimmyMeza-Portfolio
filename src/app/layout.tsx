@@ -1,58 +1,42 @@
 import "@/once-ui/styles/index.scss";
 import "@/once-ui/tokens/index.scss";
 
-import { Flex } from '@/once-ui/components';
+import { Flex } from '@/once-ui/components'
 import classNames from 'classnames';
-import { Inter } from 'next/font/google';
+import { Inter } from 'next/font/google'
 import { Source_Code_Pro } from 'next/font/google';
-import { Arvo } from 'next/font/google';
 
-const primary = Arvo({
-    variable: '--font-primary',
-    subsets: ['latin'],
-    display: 'swap',
-});
+const primary = Inter({
+	variable: '--font-primary',
+	subsets: ['latin'],
+	display: 'swap',
+})
 
 const code = Source_Code_Pro({
-    variable: '--font-code',
-    subsets: ['latin'],
-    display: 'swap',
-});
-
-const inter = Inter({
-    variable: '--font-inter',
-    subsets: ['latin'],
-    display: 'swap',
+	variable: '--font-code',
+	subsets: ['latin'],
+	display: 'swap',
 });
 
 export default function RootLayout({
-    children,
+  	children,
 }: Readonly<{
-    children: React.ReactNode;
+  	children: React.ReactNode;
 }>) {
-    return (
-        <Flex
-            as="html" lang="en"
-            fillHeight background="page"
-            data-neutral="gray" data-brand="blue" data-accent="violet"
-            data-solid="color" data-solid-style="flat"
-            data-theme="dark"
-            data-border="playful"
-            data-surface="translucent"
-            data-transition="all"
-            className={classNames(
-                primary.variable,
-                inter.variable,
-                code.variable,
-                'root')}>
-            <Flex
-                as="body"
-                fillWidth fillHeight margin="0" padding="0">
-                <Flex
-                    flex={1} direction="column">
-                    {children}
-                </Flex>
-            </Flex>
-        </Flex>
-    );
+	return (
+		<Flex
+			as="html" lang="en"
+			data-border="playful" data-theme="dark" data-neutral="gray" data-brand="cyan" data-accent="violet" data-solid="color"
+			fillHeight background="page"
+			className={classNames(primary.variable, code.variable)}>
+			<Flex
+				as="body"
+				fillWidth fillHeight margin="0" padding="0">
+				<Flex
+					flex={1} direction="column">
+					{children}
+				</Flex>
+			</Flex>
+		</Flex>
+	);
 }
