@@ -4,13 +4,14 @@ import "@/once-ui/tokens/index.scss";
 import { Flex } from '@/once-ui/components'
 import classNames from 'classnames';
 import { Inter } from 'next/font/google'
+import { Source_Code_Pro } from 'next/font/google';
 import { Arvo } from 'next/font/google';
 
 const primary = Arvo({
     variable: '--font-primary',
     subsets: ['latin'],
-    display: 'swap'
-});
+    display: 'swap',
+})
 
 
 type FontConfig = {
