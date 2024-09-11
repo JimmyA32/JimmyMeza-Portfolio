@@ -48,7 +48,7 @@ export default function Home() {
 							direction="column"
 							justifyContent="center"  // Centrar contenido verticalmente
 							alignItems="center"  // Centrar contenido horizontalmente
-							style={{ marginBottom: '50px', marginTop: '-30px' }}  // Margen debajo del contenedor
+							style={{ marginBottom: '50px', marginTop: '-45px' }} 
 						>
 							<Image 
 								src="/images/yo.png"
