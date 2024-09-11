@@ -19,6 +19,7 @@ import {
 } from "react-icons/hi2";
 
 import {
+	FaLinkedin,
 	FaDiscord,
 	FaGithub
 } from "react-icons/fa6";
