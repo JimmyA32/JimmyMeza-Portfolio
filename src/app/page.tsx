@@ -134,7 +134,12 @@ export default function Home() {
 					</Button>
 					<Button
 						href="https://discord.com/invite/5EyAQ4eNdS"
-						prefixIcon={<FaLinkedin/>} size="s" variant="tertiary">
+						prefixIcon={<FaLinkedin/>} 
+						size="s" 
+						variant="tertiary"
+						target="_blank"
+                    				rel="noopener noreferrer"
+					>
 						Linkedin
 					</Button>
 				</Flex>
