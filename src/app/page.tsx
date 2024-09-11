@@ -19,7 +19,7 @@ export default function Home() {
 		},
 		{
 			href: "https://once-ui.com/docs/typography",
-			title: "Skill",
+			title: "Habilidades",
 			description: "Scale text automatically.",
 		},
 	];
