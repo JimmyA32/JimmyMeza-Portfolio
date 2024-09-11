@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
+import Image from 'next/image';
 
 import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Logo, Background, LetterFx } from '@/once-ui/components';
 import Link from 'next/link';
@@ -52,16 +53,26 @@ export default function Home() {
 							position="relative"
 							flex={4} gap="24" marginBottom="104"
 							direction="column">
-							<InlineCode
-								className="shadow-m"
-								style={{
-									width: 'fit-content',
-									padding: 'var(--static-space-8) var(--static-space-16)',
-									backdropFilter: 'blur(var(--static-space-1))',
-									fontSize: '24px'
-								}}>
-								Hola soy, <span className="brand-on-background-medium" style={{fontSize: '24px'}}>Jimmy Meza</span>
-							</InlineCode>
+							<Flex
+								direction="column" alignItems="center" gap="16">
+								<Image 
+									src="/images/yo.png" // Ruta de la imagen
+									alt="Jimmy Meza"
+									width={200} // Ajusta el tamaño según sea necesario
+									height={200} // Ajusta el tamaño según sea necesario
+									style={{ borderRadius: '50%' }} // Opcional, para un estilo circular
+								/>
+								<InlineCode
+									className="shadow-m"
+									style={{
+										width: 'fit-content',
+										padding: 'var(--static-space-8) var(--static-space-16)',
+										backdropFilter: 'blur(var(--static-space-1))',
+										fontSize: '24px'
+									}}>
+									Hola soy, <span className="brand-on-background-medium" style={{fontSize: '24px'}}>Jimmy Meza</span>
+								</InlineCode>
+							</Flex>
 							<Heading
 								wrap="balance"
 								variant="display-strong-s">
