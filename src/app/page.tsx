@@ -8,6 +8,34 @@ import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Logo, Background, 
 import Link from 'next/link';
 
 export default function Home() {
+		const NavItem = ({ href, children }: { href: string; children: React.ReactNode }) => (
+		  <Link 
+		    href={href} 
+		    className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+		  >
+		    {children}
+		  </Link>
+		)
+		
+		export function Header() {
+		  return (
+		    <header className="border-b">
+		      <div className="container mx-auto px-4 py-4">
+		        <nav className="flex justify-between items-center">
+		          <Link href="/" className="text-2xl font-bold text-primary">
+		            Jimmy Meza
+		          </Link>
+		          <ul className="flex space-x-6">
+		            <li><NavItem href="/about">Sobre Mi</NavItem></li>
+		            <li><NavItem href="/projects">Proyectos</NavItem></li>
+		            <li><NavItem href="/skills">Habilidades</NavItem></li>
+		            <li><NavItem href="/contact">Contacto</NavItem></li>
+		          </ul>
+		        </nav>
+		      </div>
+		    </header>
+		  )
+		}
 	const links = [
 		{
 			href: "https://once-ui.com/docs/theming",
