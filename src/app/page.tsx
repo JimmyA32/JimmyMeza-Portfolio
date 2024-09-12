@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Background, LetterFx } from '@/once-ui/components';
 import Link from 'next/link';
-import Header from '@/once-ui/components/Header';
+import Header from 'src/once-ui/components/Header';
 
 export default function Home() {
   const links = [
@@ -36,7 +36,7 @@ export default function Home() {
       <Background dots={false} />
       
       {/* Menú horizontal */}
-      <Header />
+      <Header/>
 
       <Flex 
 	      position="relative" 
