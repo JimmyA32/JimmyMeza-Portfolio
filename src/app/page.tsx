@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Background, LetterFx } from '@/once-ui/components';
 import Link from 'next/link';
-import { Header } from '@/components/Header';  // Importar el Header desde el archivo de componentes
+import Header from '@/once-ui/components/Header';
 
 export default function Home() {
   const links = [
