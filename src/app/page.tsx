@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Background, LetterFx } from '@/once-ui/components';
 import Link from 'next/link';
-import Header from 'src/once-ui/components/Header';
+import { Header } from "/vercel/path0/src/once-ui/components/Header"
 
 export default function Home() {
   const links = [
