@@ -81,7 +81,9 @@ export default function Home() {
 								variant="display-strong-s">
 								<span className="font-code">
 									<LetterFx
-										trigger="instant">
+										trigger="instant"
+										speed="slow"
+										>
 										QA Tester
 									</LetterFx>
 								</span>
