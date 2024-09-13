@@ -8,25 +8,25 @@ import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Logo, Background, 
 import Link from 'next/link';
 
 export default function Home() {
-	const [menuBackground, setMenuBackground] = useState("transparent");
+	  const [menuBackgroundClass, setMenuBackgroundClass] = useState("menu-transparent");
 
-	// Función para manejar el efecto de desplazamiento
-	useEffect(() => {
-		const handleScroll = () => {
-			if (window.scrollY > 50) {
-				setMenuBackground("neutral-strong"); // Cambia el color del menú al desplazarse
-			} else {
-				setMenuBackground("undefined "); // Mantiene el fondo transparente cuando está en la parte superior
-			}
-		};
+  // Función para manejar el efecto de desplazamiento
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setMenuBackgroundClass("menu-solid"); // Cambia a fondo sólido al desplazarse
+      } else {
+        setMenuBackgroundClass("menu-transparent"); // Mantiene el fondo transparente en la parte superior
+      }
+    };
 
-		window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-		// Limpia el listener cuando el componente se desmonta
-		return () => {
-			window.removeEventListener("scroll", handleScroll);
-		};
-	}, []);
+    // Limpia el listener cuando el componente se desmonta
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
 	const links = [
 		{
