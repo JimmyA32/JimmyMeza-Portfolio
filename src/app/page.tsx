@@ -38,7 +38,7 @@ export default function Home() {
 				as="nav"
 				fillWidth
 				justifyContent="center"
-				background="neutral-background-medium" // Color de fondo del menú
+				background="neutral-medium" // Color de fondo del menú
 				paddingY="m"
 				style={{ position: 'fixed', top: 0, zIndex: 1000 }}>
 				{links.map((link) => (
