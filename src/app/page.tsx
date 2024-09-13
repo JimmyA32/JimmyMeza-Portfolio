@@ -6,6 +6,26 @@ import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Logo, Background, 
 import Link from 'next/link';
 
 export default function Home() {
+	const [menuBackground, setMenuBackground] = useState("transparent");
+
+	// Función para manejar el efecto de desplazamiento
+	useEffect(() => {
+		const handleScroll = () => {
+			if (window.scrollY > 50) {
+				setMenuBackground("neutral-strong"); // Cambia el color del menú al desplazarse
+			} else {
+				setMenuBackground("transparent"); // Mantiene el fondo transparente cuando está en la parte superior
+			}
+		};
+
+		window.addEventListener("scroll", handleScroll);
+
+		// Limpia el listener cuando el componente se desmonta
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
+
 	const links = [
 		{
 			href: "https://once-ui.com/docs/theming",
