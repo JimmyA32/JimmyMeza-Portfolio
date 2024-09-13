@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default function Home() {
 	const links = [
 		{
-			href: "#sobre-mi",
+			href: "https://once-ui.com/docs/theming",
 			title: "Sobre Mí",
 		},
 		{
