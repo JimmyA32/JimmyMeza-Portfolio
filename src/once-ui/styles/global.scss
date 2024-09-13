@@ -69,3 +69,13 @@ a {
         background: var(--neutral-alpha-strong);
     }
 }
+
+.menu-transparent {
+  background-color: transparent;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.menu-solid {
+  background-color: black; /* O el color que prefieras */
+  transition: background-color 0.3s ease;
+}
