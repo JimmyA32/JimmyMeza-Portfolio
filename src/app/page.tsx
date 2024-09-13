@@ -12,11 +12,11 @@ export default function Home() {
 			title: "Sobre Mí",
 		},
 		{
-			href: "#proyectos",
+			href: "https://once-ui.com/docs/theming",
 			title: "Proyectos",
 		},
 		{
-			href: "#habilidades",
+			href: "https://once-ui.com/docs/theming",
 			title: "Habilidades",
 		},
 		{
