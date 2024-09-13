@@ -16,7 +16,7 @@ export default function Home() {
 			if (window.scrollY > 50) {
 				setMenuBackground("neutral-strong"); // Cambia el color del menú al desplazarse
 			} else {
-				setMenuBackground("transparent"); // Mantiene el fondo transparente cuando está en la parte superior
+				setMenuBackground("undefined "); // Mantiene el fondo transparente cuando está en la parte superior
 			}
 		};
 
