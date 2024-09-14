@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import Image from 'next/image';
 
-import { Text, Flex, Button, Grid, Icon, InlineCode, Logo, Background, LetterFx } from '@/once-ui/components';
+import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Logo, Background, LetterFx } from '@/once-ui/components';
 import Link from 'next/link';
 
 export default function Home() {
