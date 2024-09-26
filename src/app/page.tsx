@@ -96,8 +96,18 @@ export default function Home() {
 									Hola soy, <span className="brand-on-background-medium" style={{fontSize: '24px'}}>Jimmy Meza</span>
 								</InlineCode>
 							</Flex>
+							
+							<Heading wrap="balance" variant="display-strong-s">
+								<span className="font-code">
+									<LetterFx trigger="instant" speed="slow">QA Tester</LetterFx>
+								</span>
+							</Heading>
+							
+							<Button href="https://once-ui.com/docs" suffixIcon="chevronRight" variant="secondary">
+								Read docs
+							</Button>
 
-							{/* Nuevo texto agregado */}
+								{/* Nuevo texto agregado */}
 						        <Text>
 						          Soy Jimmy Meza - QA Tester Junior. Desde que comencé mi viaje en el mundo del aseguramiento de calidad. 
 						          Mi enfoque detallista y mi curiosidad me han permitido desarrollar habilidades sólidas en la creación 
@@ -117,17 +127,7 @@ export default function Home() {
 						          No dudes en explorar mis proyectos y contactarme. Gracias por visitar mi portafolio y espero que disfrutes explorándolo tanto 
 						          como yo disfruté creándolo.
 						        </Text>
-
 							
-							<Heading wrap="balance" variant="display-strong-s">
-								<span className="font-code">
-									<LetterFx trigger="instant" speed="slow">QA Tester</LetterFx>
-								</span>
-							</Heading>
-							
-							<Button href="https://once-ui.com/docs" suffixIcon="chevronRight" variant="secondary">
-								Read docs
-							</Button>
 						</Flex>
 					</Flex>
 
