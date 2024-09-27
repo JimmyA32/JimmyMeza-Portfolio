@@ -108,7 +108,7 @@ export default function Home() {
 							</Button>
 
 								{/* Nuevo texto agregado */}
-						        <Text>
+						        <Text><hr>
 						          Soy Jimmy Meza - QA Tester Junior. Desde que comencé mi viaje en el mundo del aseguramiento de calidad. 
 						          Mi enfoque detallista y mi curiosidad me han permitido desarrollar habilidades sólidas en la creación 
 						          y ejecución de casos de prueba, así como en la gestión de incidencias y reporte de bugs utilizando herramientas como Jira. 
