@@ -106,27 +106,6 @@ export default function Home() {
 							<Button href="https://once-ui.com/docs" suffixIcon="chevronRight" variant="secondary">
 								Read docs
 							</Button>
-
-								{/* Nuevo texto agregado */}
-						        <Text>
-						          Soy Jimmy Meza - QA Tester Junior. Desde que comencé mi viaje en el mundo del aseguramiento de calidad. 
-						          Mi enfoque detallista y mi curiosidad me han permitido desarrollar habilidades sólidas en la creación 
-						          y ejecución de casos de prueba, así como en la gestión de incidencias y reporte de bugs utilizando herramientas como Jira. 
-						          Estoy en constante aprendizaje, buscando siempre nuevas tecnologías y metodologías que me permitan mejorar la calidad del software 
-						          de manera más eficiente y efectiva.
-						        </Text>
-						        <Text>
-						          <strong>¿Qué encontrarás aquí?</strong>
-						          <ul>
-						            <li>Pruebas Manuales: Ejemplos de casos de prueba y resultados de pruebas manuales.</li>
-						            <li>Documentación Técnica: Casos de estudio que destacan mi capacidad para documentar procesos de prueba y resultados.</li>
-						          </ul>
-						        </Text>
-						        <Text>
-						          Estoy emocionado de compartir mi trabajo contigo y espero que encuentres valor en los proyectos presentados aquí. 
-						          No dudes en explorar mis proyectos y contactarme. Gracias por visitar mi portafolio y espero que disfrutes explorándolo tanto 
-						          como yo disfruté creándolo.
-						        </Text>
 							
 						</Flex>
 					</Flex>
@@ -146,7 +125,26 @@ export default function Home() {
 					</Grid>
 				</Flex>
 			</Flex>
-			
+								{/* Nuevo texto agregado */}
+						        <Text><hr>
+						          Soy Jimmy Meza - QA Tester Junior. Desde que comencé mi viaje en el mundo del aseguramiento de calidad. 
+						          Mi enfoque detallista y mi curiosidad me han permitido desarrollar habilidades sólidas en la creación 
+						          y ejecución de casos de prueba, así como en la gestión de incidencias y reporte de bugs utilizando herramientas como Jira. 
+						          Estoy en constante aprendizaje, buscando siempre nuevas tecnologías y metodologías que me permitan mejorar la calidad del software 
+						          de manera más eficiente y efectiva.
+						        </Text>
+						        <Text>
+						          <strong>¿Qué encontrarás aquí?</strong>
+						          <ul>
+						            <li>Pruebas Manuales: Ejemplos de casos de prueba y resultados de pruebas manuales.</li>
+						            <li>Documentación Técnica: Casos de estudio que destacan mi capacidad para documentar procesos de prueba y resultados.</li>
+						          </ul>
+						        </Text>
+						        <Text>
+						          Estoy emocionado de compartir mi trabajo contigo y espero que encuentres valor en los proyectos presentados aquí. 
+						          No dudes en explorar mis proyectos y contactarme. Gracias por visitar mi portafolio y espero que disfrutes explorándolo tanto 
+						          como yo disfruté creándolo.
+						        </Text>
 			{/* Footer */}
 			<Flex as="footer" position="relative" fillWidth paddingX="l" paddingY="m" justifyContent="space-between">
 				<Text variant="body-default-s" onBackground="neutral-weak">© 2024 Jimmy Meza</Text>
