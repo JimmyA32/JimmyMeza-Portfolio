@@ -106,26 +106,8 @@ export default function Home() {
 							<Button href="https://once-ui.com/docs" suffixIcon="chevronRight" variant="secondary">
 								Read docs
 							</Button>
-							
 						</Flex>
-					</Flex>
-
-					{/* Sección de enlaces de proyectos */}
-					<Grid radius="l" border="neutral-medium" borderStyle="solid-1" columns="repeat(3, 1fr)" tabletColumns="1col" mobileColumns="1col" fillWidth>
-						{links.map((link) => (
-							<Link target="_blank" style={{ padding: 'var(--responsive-space-l)' }} key={link.href} href={link.href}>
-								<Flex fillWidth paddingY="8" gap="8" direction="column">
-									<Flex fillWidth gap="12" alignItems="center">
-										<Text variant="body-strong-m" onBackground="neutral-strong">{link.title}</Text>
-										<Icon size="s" name="arrowUpRight" />
-									</Flex>
-								</Flex>
-							</Link>
-						))}
-					</Grid>
-				</Flex>
-			</Flex>
-								{/* Nuevo texto agregado */}
+							{/* Nuevo texto agregado */}
 						        <Text><hr>
 						          Soy Jimmy Meza - QA Tester Junior. Desde que comencé mi viaje en el mundo del aseguramiento de calidad. 
 						          Mi enfoque detallista y mi curiosidad me han permitido desarrollar habilidades sólidas en la creación 
@@ -145,6 +127,23 @@ export default function Home() {
 						          No dudes en explorar mis proyectos y contactarme. Gracias por visitar mi portafolio y espero que disfrutes explorándolo tanto 
 						          como yo disfruté creándolo.
 						        </Text>
+					</Flex>
+
+					{/* Sección de enlaces de proyectos */}
+					<Grid radius="l" border="neutral-medium" borderStyle="solid-1" columns="repeat(3, 1fr)" tabletColumns="1col" mobileColumns="1col" fillWidth>
+						{links.map((link) => (
+							<Link target="_blank" style={{ padding: 'var(--responsive-space-l)' }} key={link.href} href={link.href}>
+								<Flex fillWidth paddingY="8" gap="8" direction="column">
+									<Flex fillWidth gap="12" alignItems="center">
+										<Text variant="body-strong-m" onBackground="neutral-strong">{link.title}</Text>
+										<Icon size="s" name="arrowUpRight" />
+									</Flex>
+								</Flex>
+							</Link>
+						))}
+					</Grid>
+				</Flex>
+			</Flex>
 			{/* Footer */}
 			<Flex as="footer" position="relative" fillWidth paddingX="l" paddingY="m" justifyContent="space-between">
 				<Text variant="body-default-s" onBackground="neutral-weak">© 2024 Jimmy Meza</Text>
