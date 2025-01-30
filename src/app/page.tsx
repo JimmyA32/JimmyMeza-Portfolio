@@ -31,7 +31,8 @@ export default function Home() {
 		return (
 			<Flex
 			fillWidth paddingTop="l" paddingX="l"
-			direction="column" alignItems="center" flex={1}>
+			direction="column" alignItems="center" flex={1}
+			>
 			
 			{/* Menú de navegación horizontal */}
 			<Flex
@@ -40,7 +41,8 @@ export default function Home() {
 				justifyContent="center"
 				background="neutral-medium" // Color de fondo del menú
 				paddingY="m"
-				style={{ position: 'fixed', top: 0, zIndex: 1000 }}>
+				style={{ position: 'fixed', top: 0, zIndex: 1000 }}
+			>
 				{links.map((link) => (
 					<Link key={link.href} href={link.href}>
 						<a style={{ color: 'white', margin: '0 20px', textDecoration: 'none', fontWeight: 'bold' }}>
