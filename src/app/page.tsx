@@ -103,9 +103,11 @@ export default function Home() {
 								</span>
 							</Heading>
 							
-							<Button href="public/images/QA-JimmyMeza.pdf" suffixIcon="chevronRight" variant="secondary">
-							    Descargar CV
-							</Button>
+							<a href="/images/QA-JimmyMeza.pdf" download target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+							    <Button suffixIcon="chevronRight" variant="secondary">
+							        Descargar CV
+							    </Button>
+							</a>
 
 								{/* Nuevo texto agregado */}
 						        <Text><hr>
