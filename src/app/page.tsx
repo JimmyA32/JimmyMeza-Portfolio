@@ -105,11 +105,12 @@ export default function Home() {
 								</span>
 							</Heading>
 							
-							<a href="/images/QA-JimmyMeza.pdf" download target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-							    <Button suffixIcon="chevronRight" variant="secondary">
-							        Descargar CV
-							    </Button>
-							</a>
+							<Button onClick={() => window.open('/images/QA-JimmyMeza.pdf', '_blank')}
+							  suffixIcon="chevronRight"
+							  variant="secondary"
+							>
+							  Ver CV
+							</Button>
 
 								{/* Nuevo texto agregado */}
 						        <Text><hr>
