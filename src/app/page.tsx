@@ -26,10 +26,10 @@ export default function Home() {
 			href: "#contacto",
 			title: "Contacto",
 		},
-	];
+		];
 
-	return (
-		<Flex
+		return (
+			<Flex
 			fillWidth paddingTop="l" paddingX="l"
 			direction="column" alignItems="center" flex={1}>
 			
