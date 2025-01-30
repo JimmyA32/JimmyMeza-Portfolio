@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 export default function Home() {
 
-	const links = [
+	const links = [	
 		{
 			href: "https://once-ui.com/docs/theming",
 			title: "Sobre Mí",
@@ -30,9 +30,13 @@ export default function Home() {
 
 	return (
 		<Flex
-			fillWidth paddingTop="l" paddingX="l"
-			direction="column" alignItems="center" flex={1}>
-
+			fillWidth 
+			paddingTop="l" 
+			paddingX="l"
+			direction="column" 
+			alignItems="center" 
+			flex={1}
+		>
 			{/* Menú de navegación horizontal */}
 			<Flex
 				as="nav"
@@ -43,7 +47,14 @@ export default function Home() {
 				style={{ position: 'fixed', top: 0, zIndex: 1000 }}>
 				{links.map((link) => (
 					<Link key={link.href} href={link.href}>
-						<a style={{ color: 'white', margin: '0 20px', textDecoration: 'none', fontWeight: 'bold' }}>
+						<a 
+							style={{ 
+								color: 'white', 
+								margin: '0 20px', 
+								textDecoration: 'none', 
+								ontWeight: 'bold' 
+							}}
+						>
 							{link.title}
 						</a>
 					</Link>
