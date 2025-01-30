@@ -103,8 +103,8 @@ export default function Home() {
 								</span>
 							</Heading>
 							
-							<Button href="https://once-ui.com/docs" suffixIcon="chevronRight" variant="secondary">
-								Read docs
+							<Button href="/images/QA-JimmyMeza.pdf" suffixIcon="chevronRight" variant="secondary">
+							    Descargar CV
 							</Button>
 
 								{/* Nuevo texto agregado */}
