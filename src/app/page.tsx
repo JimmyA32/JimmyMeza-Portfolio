@@ -26,14 +26,13 @@ export default function Home() {
 			href: "#contacto",
 			title: "Contacto",
 		},
-		];
+	];
 
-		return (
-			<Flex
+	return (
+		<Flex
 			fillWidth paddingTop="l" paddingX="l"
-			direction="column" alignItems="center" flex={1}
-			>
-			
+			direction="column" alignItems="center" flex={1}>
+
 			{/* Menú de navegación horizontal */}
 			<Flex
 				as="nav"
@@ -41,8 +40,7 @@ export default function Home() {
 				justifyContent="center"
 				background="neutral-medium" // Color de fondo del menú
 				paddingY="m"
-				style={{ position: 'fixed', top: 0, zIndex: 1000 }}
-			>
+				style={{ position: 'fixed', top: 0, zIndex: 1000 }}>
 				{links.map((link) => (
 					<Link key={link.href} href={link.href}>
 						<a style={{ color: 'white', margin: '0 20px', textDecoration: 'none', fontWeight: 'bold' }}>
@@ -63,7 +61,7 @@ export default function Home() {
 					as="main"
 					direction="column" justifyContent="center"
 					fillWidth fillHeight padding="l" gap="l">
-					
+
 					{/* Aquí va el contenido actual */}
 					<Flex mobileDirection="column" fillWidth gap="24">
 						<Flex
@@ -98,18 +96,21 @@ export default function Home() {
 									Hola soy, <span className="brand-on-background-medium" style={{fontSize: '24px'}}>Jimmy Meza</span>
 								</InlineCode>
 							</Flex>
-							
+
 							<Heading wrap="balance" variant="display-strong-s">
 								<span className="font-code">
 									<LetterFx trigger="instant" speed="slow">QA Tester</LetterFx>
 								</span>
 							</Heading>
-							
-							<Button href="/images/QA-JimmyMeza.pdf" prefixIcon="github" size="s" variant="tertiary" target="_blank" rel="noopener noreferrer">Ver CV</Button>
 
-
-								{/* Nuevo texto agregado */}
+							<Button href="https://github.com/JimmyA32/JimmyMeza-Portfolio/blob/main/public/images/QA-JimmyMeza.pdf" suffixIcon="chevronRight" variant="secondary">
+								Ver CV
+							</Button>
+						</Flex>
+							{/* Nuevo texto agregado */}
 						        <Text><hr>
+								{/* Nuevo texto agregado */}
+						        <Text>
 						          Soy Jimmy Meza - QA Tester Junior. Desde que comencé mi viaje en el mundo del aseguramiento de calidad. 
 						          Mi enfoque detallista y mi curiosidad me han permitido desarrollar habilidades sólidas en la creación 
 						          y ejecución de casos de prueba, así como en la gestión de incidencias y reporte de bugs utilizando herramientas como Jira. 
