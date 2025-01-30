@@ -103,7 +103,7 @@ export default function Home() {
 								</span>
 							</Heading>
 							
-							<Button href="/images/QA-JimmyMeza.pdf" suffixIcon="chevronRight" variant="secondary">
+							<Button href="public/images/QA-JimmyMeza.pdf" suffixIcon="chevronRight" variant="secondary">
 							    Descargar CV
 							</Button>
 
