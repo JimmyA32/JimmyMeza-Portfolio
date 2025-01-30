@@ -105,12 +105,8 @@ export default function Home() {
 								</span>
 							</Heading>
 							
-							<Button onClick={() => window.open('/images/QA-JimmyMeza.pdf', '_blank')}
-							  suffixIcon="chevronRight"
-							  variant="secondary"
-							>
-							  Ver CV
-							</Button>
+							<Button href="/images/QA-JimmyMeza.pdf" prefixIcon="github" size="s" variant="tertiary" target="_blank" rel="noopener noreferrer">Ver CV</Button>
+
 
 								{/* Nuevo texto agregado */}
 						        <Text><hr>
