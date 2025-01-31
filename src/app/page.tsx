@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 export default function Home() {
 
-	const links = [	
+	const links = [
 		{
 			href: "https://once-ui.com/docs/theming",
 			title: "Sobre Mí",
@@ -30,13 +30,9 @@ export default function Home() {
 
 	return (
 		<Flex
-			fillWidth 
-			paddingTop="l" 
-			paddingX="l"
-			direction="column" 
-			alignItems="center" 
-			flex={1}
-		>
+			fillWidth paddingTop="l" paddingX="l"
+			direction="column" alignItems="center" flex={1}>
+			
 			{/* Menú de navegación horizontal */}
 			<Flex
 				as="nav"
@@ -47,14 +43,7 @@ export default function Home() {
 				style={{ position: 'fixed', top: 0, zIndex: 1000 }}>
 				{links.map((link) => (
 					<Link key={link.href} href={link.href}>
-						<a 
-							style={{ 
-								color: 'white', 
-								margin: '0 20px', 
-								textDecoration: 'none', 
-								ontWeight: 'bold' 
-							}}
-						>
+						<a style={{ color: 'white', margin: '0 20px', textDecoration: 'none', fontWeight: 'bold' }}>
 							{link.title}
 						</a>
 					</Link>
@@ -72,7 +61,7 @@ export default function Home() {
 					as="main"
 					direction="column" justifyContent="center"
 					fillWidth fillHeight padding="l" gap="l">
-
+					
 					{/* Aquí va el contenido actual */}
 					<Flex mobileDirection="column" fillWidth gap="24">
 						<Flex
@@ -107,19 +96,17 @@ export default function Home() {
 									Hola soy, <span className="brand-on-background-medium" style={{fontSize: '24px'}}>Jimmy Meza</span>
 								</InlineCode>
 							</Flex>
-
+							
 							<Heading wrap="balance" variant="display-strong-s">
 								<span className="font-code">
 									<LetterFx trigger="instant" speed="slow">QA Tester</LetterFx>
 								</span>
 							</Heading>
-
-							<Button href="https://github.com/JimmyA32/JimmyMeza-Portfolio/blob/main/public/images/QA-JimmyMeza.pdf" suffixIcon="chevronRight" variant="secondary">
-								Ver CV
+							
+							<Button href="https://once-ui.com/docs" suffixIcon="chevronRight" variant="secondary">
+								Read docs
 							</Button>
-						</Flex>
-							{/* Nuevo texto agregado */}
-						        <Text><hr>
+
 								{/* Nuevo texto agregado */}
 						        <Text>
 						          Soy Jimmy Meza - QA Tester Junior. Desde que comencé mi viaje en el mundo del aseguramiento de calidad. 
